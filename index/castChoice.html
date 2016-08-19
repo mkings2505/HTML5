@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+	<title>Pick a Side</title>
+	<link rel="stylesheet" href="styles/castChoice.css">
+	<link href="styles/iPadcastChoice.css" rel="stylesheet"  type="text/css" media="only screen and (max-width: 800px)">
+	<link href="styles/iPhone6castChoice.css" rel="stylesheet"  type="text/css" media="only screen and (max-width: 480px)">
+	
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+
+<body>
+
+  <header>
+    	<h1>Results</h1>
+    	<h3></h3>
+    </hgroup>
+ 
+  <nav id="nav_bar">
+	    <ul>
+		<li><a href="FinalProject.html">Home</a></li>
+    	<li><a href="captainBio.html">Captain America Bio</a></li>
+    	<li><a href="ironManBio.html">Iron Man Bio</a></li>
+    	<li><a href="castChoice.html" class="current">Pick a Side</a></li>
+    	<li><a href="joinEmail.html">Join Email</a></li>
+  	</ul>
+	</nav>
+	</header>
+  <section>
+	<script>
+		alert("Type the letter a if you choose Captain America's side OR the letter b if you choose Iron Man's side.");
+
+		var side;
+		var a = ("a");
+		var b = ("b");
+		side = prompt ("Type a or b here:");
+
+		if (side == a)
+		document.write("<h2>Captain America: 53%<br><br>Iron Man: 47%</h2>");
+		else if (side == b)
+		document.write("<h2>Iron Man: 55%<br><br>Captain America: 45%</h2>");
+	</script>
+  </section>
+
+  <footer>
+	<p>&copy; 2016 Martin Reyes Diaz</p>
+  </footer>
+</body>
+</html>
