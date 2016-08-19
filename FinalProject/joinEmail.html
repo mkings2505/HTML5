@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
 	<title>Subscribe</title>
 	<link rel="stylesheet" href="styles/joinEmail.css">
+	<link href="styles/iPadjoinEmail.css" rel="stylesheet"  type="text/css" media="only screen and (max-width: 800px)">
+	<link href="styles/iPhone6joinEmail.css" rel="stylesheet"  type="text/css" media="only screen and (max-width: 480px)">
+	
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 
@@ -21,13 +24,19 @@
 		<li><a href="FinalProject.html">Home</a></li>
     	<li><a href="captainBio.html">Captain America Bio</a></li>
     	<li><a href="ironManBio.html">Iron Man Bio</a></li>
-    	<li><a href="castChoice.html">Cast Your Choice</a></li>
-    	<li class="last"><a href="joinEmail.html" class="current">Join Email</a></li>
+    	<li><a href="castChoice.html">Pick a Side</a></li>
+    	<li><a href="joinEmail.html" class="current">Join Email</a></li>
   	</ul>
 	</nav>
 	</header>
   <section>
- 
+	<h2>Please enter the following information:</h2>
+	<form action="subscribed.html">
+	<label for="name" accesskey="N">Name:</label>
+	<input type="text" name="firstname" id="firstname" required autofocus><br>
+	<label for="email" accesskey="E">Email:</label>
+	<input type="text" name="email" id="email" required><br>
+	<input type="submit" id="button" value="Subscribe">
   </section>
 
   <footer>
