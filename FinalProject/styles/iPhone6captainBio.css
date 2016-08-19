@@ -1,0 +1,37 @@
+
+body  {
+	width: 369px;
+}
+header h3 {
+	width: 372px;
+}
+section{
+	margin-right: 4px;
+}
+#nav_bar li {
+	display: block;
+	padding: 0 2.0em; /*padding 0 for top and bottom and 1.5em for left and right of the li elements*/
+	}
+#nav_bar {
+	width: 370px;
+	/*margin-left: 2px;*/
+	height: 120px;
+	/*margin-top: 20px;*/
+	}
+	
+ul {
+	line-height: 1.5;
+} 
+
+.floatleft {
+	float: none;
+	padding-right: 0px;
+	clear: both;
+}
+
+.floatright{
+	float: none;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}

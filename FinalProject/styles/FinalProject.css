@@ -44,12 +44,7 @@ a {
     font-weight: bold;
     color: black;
 }
-a:link, a:visited { 
-    color: orange; 
-};
-a:hover, a:focus { 
-    color: green;
-}
+
 #nav_bar li a {
 	color: white;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -83,7 +78,7 @@ header h3 {
 	border-bottom: black solid 2px;
 	padding-bottom: 15px;
 	margin-top: -2px;
-	width: 1000px;
+	width: 1002px;
 	margin-left: -17px;
 }
 

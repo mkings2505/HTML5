@@ -16,7 +16,7 @@ html {
 
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	width: 880px;
+	width: 1000px;
 	background-color: white;
 	margin: 0 auto; 
 	margin-top: 70px;
@@ -41,12 +41,7 @@ a {
     font-weight: bold;
     color: black;
 }
-a:link, a:visited { 
-    color: orange; 
-};
-a:hover, a:focus { 
-    color: green;
-}
+
 #nav_bar li a {
 	color: white;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -55,16 +50,15 @@ a:hover, a:focus {
 #nav_bar li {
 	display: inline; /*makes the li elements show on the same line next to each other*/
 	padding: 0 2.0em; /*padding 0 for top and bottom and 1.5em for left and right of the li elements*/
-	border-right: 2px solid black;
 	}
 #nav_bar {
-	width: 870px;
-	margin-left: 2px;
+	width: 900px;
+	margin-left: 30px;
 	height: 35px;
 	margin-top: 20px;
 	}
 #nav_bar a.current {
-	color: black;
+	color: darkred;
 	}
 	
 ul {
@@ -81,7 +75,7 @@ header h3 {
 	border-bottom: black solid 2px;
 	padding-bottom: 15px;
 	margin-top: -2px;
-	width: 882px;
+	width: 1002px;
 	margin-left: -17px;
 }
 
