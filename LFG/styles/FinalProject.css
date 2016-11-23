@@ -20,7 +20,7 @@ html {
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	width: 1200px;
-	background-color: red;
+	/*background-color: darkred;*/
 	margin: 0 auto; 
 	margin-top: 20px;
 	padding: 0;
@@ -34,11 +34,11 @@ h1, h2, p {
 
 /* Header */
 header { 
-	background: /*lightblue*/red;
+	/*background: /*lightblue*//*red;*/
     padding: 15px;
     /*border-bottom: 2px solid /*darkgreen*//*black;*/
 	text-align: center;
-	color: grey;
+	color: green;
 } 
 
 
@@ -48,7 +48,7 @@ a {
 }
 
 #nav_bar li a {
-	color: black;
+	color: green;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-decoration: none;
 	}
@@ -63,7 +63,7 @@ a {
 	margin-top: 20px;
 	}
 #nav_bar a.current {
-	color: /*darkgreen*/ grey;
+	color: /*darkgreen*/ white;
 	}
 	
 ul {
@@ -110,11 +110,11 @@ footer {
 	clear: both;
 	/*border-top: 2px solid /*darkgreen*//*black;*/
 	padding: 15px;
-	background: /*lightblue*/red;
-	margin-bottom: 20px;
+	/*background: /*lightblue*//*red;*/
+	margin-bottom: -2px;
 } 
 footer p {
 	font-size: 90%;
 	text-align: center;
-	color: /*darkgreen*/grey;
+	color: darkgreen;
 }
