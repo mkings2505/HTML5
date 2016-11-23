@@ -1,0 +1,32 @@
+body {
+	width: 761px;
+}
+
+header h3{
+	width: 770px;
+}
+
+aside { 
+	width: 91.5%;
+}
+aside p {
+	margin-bottom: 0px;
+}
+section img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+section {
+	width: 91.5%;
+	margin-right: 22px;
+}
+#nav_bar {
+	margin-left: -20px;
+	width: 768px;
+}
+
+#nav_bar li { 
+	padding: 0 1.5em;
+	}
